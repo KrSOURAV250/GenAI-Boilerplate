@@ -31,7 +31,7 @@ from langchain_postgres.v2.indexes import HNSWIndex
 from sqlalchemy.ext.asyncio import AsyncEngine, create_async_engine
 from sqlalchemy.schema import CreateSchema
 
-from common_module.vector_mill.postgres_office import PostgresSettings
+from common_module.vector_hub.postgres_office import PostgresSettings
 
 
 class VectorStorePipeline:
